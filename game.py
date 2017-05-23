@@ -7,7 +7,7 @@ tries = 0
 name = raw_input("What's your name?")
 print "%s, welcome to the guessing game." % (name)
 number = random.randint(1, 100)
-print number
+#print number
 while True:
     #print number
 
