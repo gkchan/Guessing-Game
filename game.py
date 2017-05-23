@@ -1,6 +1,7 @@
 """A number-guessing game."""
 
-# Put your code here
+import random
 
 name = raw_input("What's your name?")
 print "%s, welcome to the guessing game." % (name)
+number = random.randint(1,100)
